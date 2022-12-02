@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */; };
+		8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */; };
+		8E4EFE0E2938C50200E62A96 /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE0D2938C50200E62A96 /* SignupConstants.swift */; };
 		8E64462929372FAA00479C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462829372FAA00479C43 /* AppDelegate.swift */; };
 		8E64462B29372FAA00479C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462A29372FAA00479C43 /* SceneDelegate.swift */; };
 		8E64462D29372FAA00479C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462C29372FAA00479C43 /* ViewController.swift */; };
 		8E64463029372FAA00479C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E64462E29372FAA00479C43 /* Main.storyboard */; };
 		8E64463229372FB400479C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E64463129372FB400479C43 /* Assets.xcassets */; };
 		8E64463529372FB400479C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E64463329372FB400479C43 /* LaunchScreen.storyboard */; };
-		8E64464029372FB400479C43 /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64463F29372FB400479C43 /* PhotoAppTests.swift */; };
 		8E64464A29372FB500479C43 /* PhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64464929372FB500479C43 /* PhotoAppUITests.swift */; };
 		8E64464C29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64464B29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
+		8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		8E4EFE0D2938C50200E62A96 /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
 		8E64462529372FAA00479C43 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E64462829372FAA00479C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E64462A29372FAA00479C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +50,6 @@
 		8E64463429372FB400479C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E64463629372FB400479C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E64463B29372FB400479C43 /* PhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E64463F29372FB400479C43 /* PhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppTests.swift; sourceTree = "<group>"; };
 		8E64464529372FB500479C43 /* PhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E64464929372FB500479C43 /* PhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITests.swift; sourceTree = "<group>"; };
 		8E64464B29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				8E64463129372FB400479C43 /* Assets.xcassets */,
 				8E64463329372FB400479C43 /* LaunchScreen.storyboard */,
 				8E64463629372FB400479C43 /* Info.plist */,
+				8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */,
+				8E4EFE0D2938C50200E62A96 /* SignupConstants.swift */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -113,7 +119,7 @@
 		8E64463E29372FB400479C43 /* PhotoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E64463F29372FB400479C43 /* PhotoAppTests.swift */,
+				8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */,
 			);
 			path = PhotoAppTests;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 					};
 					8E64463A29372FB400479C43 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 8E64462429372FAA00479C43;
 					};
 					8E64464429372FB500479C43 = {
@@ -260,6 +267,8 @@
 			files = (
 				8E64462D29372FAA00479C43 /* ViewController.swift in Sources */,
 				8E64462929372FAA00479C43 /* AppDelegate.swift in Sources */,
+				8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */,
+				8E4EFE0E2938C50200E62A96 /* SignupConstants.swift in Sources */,
 				8E64462B29372FAA00479C43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E64464029372FB400479C43 /* PhotoAppTests.swift in Sources */,
+				8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +502,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQ88N3YLMB;
@@ -507,6 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.sean.PhotoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
@@ -518,6 +529,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQ88N3YLMB;
