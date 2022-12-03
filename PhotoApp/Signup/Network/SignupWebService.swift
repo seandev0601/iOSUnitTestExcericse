@@ -29,14 +29,14 @@ class SignupWebService {
         
         request.httpBody = try? JSONEncoder().encode(formModel)
         
-        let dataTask = URLSession.shared.dataTask(with: request) { data,  response, error in
+        let dataTask = urlSession.dataTask(with: request) { data,  response, error in
             // TODO: Write a new unit test to handle and error here
             
             if let data  = data, let signResponseModel = try? JSONDecoder().decode(SignupResponseModel.self, from: data) {
                 completionHandler(signResponseModel, nil)
             } else {
                 // TODO: Create a new unit Test to handle an error here
-                completionHandler(nil, nil)
+                completionHandler(nil, SignupErrors.responseModelParsingError)
             }
         }
         
