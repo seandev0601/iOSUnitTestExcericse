@@ -14,7 +14,7 @@
 		8E5FA9CA2939D02200A11F2C /* SignupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA9C92939D02200A11F2C /* SignupWebService.swift */; };
 		8E5FA9CC2939D0CA00A11F2C /* SignupFormRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA9CB2939D0CA00A11F2C /* SignupFormRequestModel.swift */; };
 		8E5FA9CE2939D25900A11F2C /* SignupResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA9CD2939D25900A11F2C /* SignupResponseModel.swift */; };
-		8E5FA9D02939D2BD00A11F2C /* SignupErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA9CF2939D2BD00A11F2C /* SignupErrors.swift */; };
+		8E5FA9D02939D2BD00A11F2C /* SignupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA9CF2939D2BD00A11F2C /* SignupError.swift */; };
 		8E64462929372FAA00479C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462829372FAA00479C43 /* AppDelegate.swift */; };
 		8E64462B29372FAA00479C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462A29372FAA00479C43 /* SceneDelegate.swift */; };
 		8E64462D29372FAA00479C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64462C29372FAA00479C43 /* ViewController.swift */; };
@@ -51,7 +51,7 @@
 		8E5FA9C92939D02200A11F2C /* SignupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebService.swift; sourceTree = "<group>"; };
 		8E5FA9CB2939D0CA00A11F2C /* SignupFormRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormRequestModel.swift; sourceTree = "<group>"; };
 		8E5FA9CD2939D25900A11F2C /* SignupResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponseModel.swift; sourceTree = "<group>"; };
-		8E5FA9CF2939D2BD00A11F2C /* SignupErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupErrors.swift; sourceTree = "<group>"; };
+		8E5FA9CF2939D2BD00A11F2C /* SignupError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupError.swift; sourceTree = "<group>"; };
 		8E64462529372FAA00479C43 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E64462829372FAA00479C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E64462A29372FAA00479C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */,
 				8E5FA9CB2939D0CA00A11F2C /* SignupFormRequestModel.swift */,
 				8E5FA9CD2939D25900A11F2C /* SignupResponseModel.swift */,
-				8E5FA9CF2939D2BD00A11F2C /* SignupErrors.swift */,
+				8E5FA9CF2939D2BD00A11F2C /* SignupError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 				8E64462929372FAA00479C43 /* AppDelegate.swift in Sources */,
 				8E5FA9CE2939D25900A11F2C /* SignupResponseModel.swift in Sources */,
 				8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */,
-				8E5FA9D02939D2BD00A11F2C /* SignupErrors.swift in Sources */,
+				8E5FA9D02939D2BD00A11F2C /* SignupError.swift in Sources */,
 				8E4EFE0E2938C50200E62A96 /* SignupConstants.swift in Sources */,
 				8E5FA9CC2939D0CA00A11F2C /* SignupFormRequestModel.swift in Sources */,
 				8E5FA9CA2939D02200A11F2C /* SignupWebService.swift in Sources */,
