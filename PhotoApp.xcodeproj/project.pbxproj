@@ -23,6 +23,7 @@
 		8E64463529372FB400479C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E64463329372FB400479C43 /* LaunchScreen.storyboard */; };
 		8E64464A29372FB500479C43 /* PhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64464929372FB500479C43 /* PhotoAppUITests.swift */; };
 		8E64464C29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64464B29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift */; };
+		8EC4DAFC293AE56E001D5C74 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4DAFB293AE56E001D5C74 /* MockURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		8E64464529372FB500479C43 /* PhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E64464929372FB500479C43 /* PhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITests.swift; sourceTree = "<group>"; };
 		8E64464B29372FB500479C43 /* PhotoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EC4DAFB293AE56E001D5C74 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			children = (
 				8E5FA9D72939D3C800A11F2C /* Network */,
 				8E5FA9D62939D3C100A11F2C /* Models */,
+				8EC4DAFB293AE56E001D5C74 /* MockURLProtocol.swift */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC4DAFC293AE56E001D5C74 /* MockURLProtocol.swift in Sources */,
 				8E5FA9C82939CFB700A11F2C /* SingupWebServiceTests.swift in Sources */,
 				8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
