@@ -46,6 +46,13 @@ class SignupFormModelValidatorTests: XCTestCase {
         
     }
     
+    func testSignupFormModelValidator_WhenInValidFirstNameContainsIlligalCharactersProvided_ShouldReturnFalse() {
+        
+        let isFirstNameValid = sut.isFirstNameValid(firstName: "Sergey*")
+        
+        XCTAssertFalse(isFirstNameValid, "The isFirstNameValid() should have return False if user's first name contains illigal characters but it has returned TRUE")
+    }
+    
     // MARK: - Last Name Validation Unit Tests Provided\TooShort\TooLong
     func testSignupFormModelValidator_WhenValidLastNameProvided_ShouldReturnTrue() {
     

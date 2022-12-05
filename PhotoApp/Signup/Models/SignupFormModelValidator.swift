@@ -12,6 +12,13 @@ class SignupFormModelValidator: SignupModelValidatorProtocol {
     func isFirstNameValid(firstName: String) -> Bool {
         var returnValue = true
         
+        let invalidCharacters = CharacterSet(charactersIn: "{}$#%*&^.,/?!@")
+        
+        // Check for illigal characters
+        if firstName.rangeOfCharacter(from: invalidCharacters) != nil {
+            returnValue = false
+        }
+        
         if firstName.isEmpty || firstName.count < SignupConstants.firstNameMinLength || firstName.count > SignupConstants.firstNameMaxLength {
             returnValue = false
         }
