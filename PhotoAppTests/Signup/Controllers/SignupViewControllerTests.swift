@@ -90,13 +90,21 @@ class SignupViewControllerTests: XCTestCase {
     
     func testSignupViewController_WhenSignupSuccessful_HomePageViewControllerIsPushed() {
         
-        UIApplication.shared.windows.filter{ $0.isKeyWindow }.first?.rootViewController = sut
-        // Act
-        sut.successfullSignup()
-        
-        let nextViewController = sut.presentedViewController
+        guard let firstScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+            return
+        }
 
+        guard let firstWindow = firstScene.windows.first else {
+            return
+        }
+
+        firstWindow.rootViewController = sut
+        
+        // Act
+        sut.presentHomePage()
+        
         // Assert
+        let nextViewController = sut.presentedViewController
         XCTAssertTrue(nextViewController is HomePageViewController)
     }
     
