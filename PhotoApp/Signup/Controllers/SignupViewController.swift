@@ -41,7 +41,9 @@ class SignupViewController: UIViewController {
 
 extension SignupViewController: SignupViewDelegateProtocol {
     func successfullSignup() {
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let homePageViewController = storyboard.instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
+        self.present(homePageViewController, animated: true, completion: nil)
     }
     
     func errorHandler(error: SignupError) {

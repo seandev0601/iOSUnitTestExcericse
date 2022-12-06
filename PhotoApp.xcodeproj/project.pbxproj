@@ -11,6 +11,10 @@
 		8E105C28293D88A500A9B4E2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C27293D88A500A9B4E2 /* SignupViewController.swift */; };
 		8E105C2A293D931000A9B4E2 /* MockSignupPressenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C29293D931000A9B4E2 /* MockSignupPressenter.swift */; };
 		8E105C2C293D93C400A9B4E2 /* SignupPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C2B293D93C400A9B4E2 /* SignupPresenterProtocol.swift */; };
+		8E105C2F293DC7F800A9B4E2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E105C2D293DC7F800A9B4E2 /* LoginViewController.xib */; };
+		8E105C30293DC7F800A9B4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C2E293DC7F800A9B4E2 /* LoginViewController.swift */; };
+		8E105C32293DC82D00A9B4E2 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C31293DC82D00A9B4E2 /* LoginViewControllerTests.swift */; };
+		8E3DCB87293ED52900C81D7C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */; };
 		8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */; };
 		8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */; };
 		8E4EFE0E2938C50200E62A96 /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE0D2938C50200E62A96 /* SignupConstants.swift */; };
@@ -60,6 +64,10 @@
 		8E105C27293D88A500A9B4E2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		8E105C29293D931000A9B4E2 /* MockSignupPressenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSignupPressenter.swift; sourceTree = "<group>"; };
 		8E105C2B293D93C400A9B4E2 /* SignupPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenterProtocol.swift; sourceTree = "<group>"; };
+		8E105C2D293DC7F800A9B4E2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8E105C2E293DC7F800A9B4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8E105C31293DC82D00A9B4E2 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
 		8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
 		8E4EFE0D2938C50200E62A96 /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
@@ -223,6 +231,9 @@
 				8E64463129372FB400479C43 /* Assets.xcassets */,
 				8E64463329372FB400479C43 /* LaunchScreen.storyboard */,
 				8E64463629372FB400479C43 /* Info.plist */,
+				8E105C2D293DC7F800A9B4E2 /* LoginViewController.xib */,
+				8E105C2E293DC7F800A9B4E2 /* LoginViewController.swift */,
+				8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				8E5FA9D52939D3B700A11F2C /* Signup */,
+				8E105C31293DC82D00A9B4E2 /* LoginViewControllerTests.swift */,
 			);
 			path = PhotoAppTests;
 			sourceTree = "<group>";
@@ -388,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E105C2F293DC7F800A9B4E2 /* LoginViewController.xib in Resources */,
 				8E64463529372FB400479C43 /* LaunchScreen.storyboard in Resources */,
 				8E64463229372FB400479C43 /* Assets.xcassets in Resources */,
 				8E64463029372FAA00479C43 /* Main.storyboard in Resources */,
@@ -418,6 +431,7 @@
 				8E105C2C293D93C400A9B4E2 /* SignupPresenterProtocol.swift in Sources */,
 				8E8D16F6293C3D5F0085F61B /* SignupPresenter.swift in Sources */,
 				8E64462929372FAA00479C43 /* AppDelegate.swift in Sources */,
+				8E3DCB87293ED52900C81D7C /* HomePageViewController.swift in Sources */,
 				8E5FA9CE2939D25900A11F2C /* SignupResponseModel.swift in Sources */,
 				8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */,
 				8E5FA9D02939D2BD00A11F2C /* SignupError.swift in Sources */,
@@ -427,6 +441,7 @@
 				8E105C28293D88A500A9B4E2 /* SignupViewController.swift in Sources */,
 				8E8D16FA293C3EF60085F61B /* SignupModelValidatorProtocol.swift in Sources */,
 				8E5FA9CC2939D0CA00A11F2C /* SignupFormRequestModel.swift in Sources */,
+				8E105C30293DC7F800A9B4E2 /* LoginViewController.swift in Sources */,
 				8E8D1702293C75950085F61B /* SignupWebServiceProtocol.swift in Sources */,
 				8E5FA9CA2939D02200A11F2C /* SignupWebService.swift in Sources */,
 				8E64462B29372FAA00479C43 /* SceneDelegate.swift in Sources */,
@@ -445,6 +460,7 @@
 				8E105C2A293D931000A9B4E2 /* MockSignupPressenter.swift in Sources */,
 				8E8D16F8293C3E4B0085F61B /* MockSignupModelValidator.swift in Sources */,
 				8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */,
+				8E105C32293DC82D00A9B4E2 /* LoginViewControllerTests.swift in Sources */,
 				8E8D1704293C7BB20085F61B /* MockSignupViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -88,4 +88,16 @@ class SignupViewControllerTests: XCTestCase {
         XCTAssertTrue(passwordTextField.isSecureTextEntry, "Password UITextField is not a Secure Text Entry")
     }
     
+    func testSignupViewController_WhenSignupSuccessful_HomePageViewControllerIsPushed() {
+        
+        UIApplication.shared.windows.filter{ $0.isKeyWindow }.first?.rootViewController = sut
+        // Act
+        sut.successfullSignup()
+        
+        let nextViewController = sut.presentedViewController
+
+        // Assert
+        XCTAssertTrue(nextViewController is HomePageViewController)
+    }
+    
 }
