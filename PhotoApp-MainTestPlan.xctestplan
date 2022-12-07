@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "664190D3-0600-4316-8799-F93138527A52",
+      "name" : "Test Server 1",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl",
+            "value" : "https:\/\/tlyqhtlbn8.execute-api.us-east-1.amazonaws.com\/prod\/signup-mock-service\/users"
+          }
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PhotoApp.xcodeproj",
+        "identifier" : "8E64463A29372FB400479C43",
+        "name" : "PhotoAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:PhotoApp.xcodeproj",
+        "identifier" : "8E64464429372FB500479C43",
+        "name" : "PhotoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
