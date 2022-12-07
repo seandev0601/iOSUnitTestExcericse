@@ -2,27 +2,34 @@
   "configurations" : [
     {
       "id" : "00B6D510-8908-4E39-AA02-36E1999FC799",
-      "name" : "Test Server 1 URL",
+      "name" : "English - United States",
       "options" : {
+        "areLocalizationScreenshotsEnabled" : false,
         "environmentVariableEntries" : [
           {
             "key" : "signupUrl",
             "value" : "https:\/\/tlyqhtlbn8.execute-api.us-east-1.amazonaws.com\/prod\/signup-mock-service\/users"
           }
         ],
+        "language" : "en",
+        "region" : "US",
         "uiTestingScreenshotsLifetime" : "deleteOnSuccess"
       }
     },
     {
       "id" : "C4A6FE50-B595-42AA-A1B0-0566ECF12DFA",
-      "name" : "Test Server 2 URL",
+      "name" : "Chinese - Taiwan",
       "options" : {
+        "areLocalizationScreenshotsEnabled" : false,
         "environmentVariableEntries" : [
           {
             "key" : "signupUrl",
             "value" : "https:\/\/tlyqhtlbn8.execute-api.us-east-1.amazonaws.com\/prod\/signup-mock-service\/users"
           }
-        ]
+        ],
+        "language" : "zh-Hant",
+        "region" : "TW",
+        "uiTestingScreenshotsLifetime" : "deleteOnSuccess"
       }
     }
   ],

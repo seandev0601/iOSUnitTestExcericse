@@ -14,6 +14,7 @@
 		8E105C2F293DC7F800A9B4E2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E105C2D293DC7F800A9B4E2 /* LoginViewController.xib */; };
 		8E105C30293DC7F800A9B4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C2E293DC7F800A9B4E2 /* LoginViewController.swift */; };
 		8E105C32293DC82D00A9B4E2 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E105C31293DC82D00A9B4E2 /* LoginViewControllerTests.swift */; };
+		8E369C6E2940636700C5F9E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E369C702940636700C5F9E8 /* Localizable.strings */; };
 		8E3DCB87293ED52900C81D7C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */; };
 		8E4EFE0A2938BE8700E62A96 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */; };
 		8E4EFE0C2938BF6900E62A96 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */; };
@@ -38,6 +39,9 @@
 		8E8D1702293C75950085F61B /* SignupWebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D1701293C75950085F61B /* SignupWebServiceProtocol.swift */; };
 		8E8D1704293C7BB20085F61B /* MockSignupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D1703293C7BB20085F61B /* MockSignupViewDelegate.swift */; };
 		8E8D1706293C7C320085F61B /* SignupViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D1705293C7C320085F61B /* SignupViewDelegateProtocol.swift */; };
+		8EB5672429407D1400FB2216 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E369C702940636700C5F9E8 /* Localizable.strings */; };
+		8EB5672529407D1900FB2216 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E369C702940636700C5F9E8 /* Localizable.strings */; };
+		8EB5672829407EE800FB2216 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB5672729407EE800FB2216 /* String+Extension.swift */; };
 		8EC4DAFC293AE56E001D5C74 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4DAFB293AE56E001D5C74 /* MockURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +73,10 @@
 		8E369C66294022F300C5F9E8 /* PhotoApp-UITestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhotoApp-UITestsPlan.xctestplan"; sourceTree = "<group>"; };
 		8E369C6829405EE100C5F9E8 /* PhotoApp-UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhotoApp-UnitTestsPlan.xctestplan"; sourceTree = "<group>"; };
 		8E369C6929405F9100C5F9E8 /* PhotoApp-MainTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PhotoApp-MainTestPlan.xctestplan"; sourceTree = "<group>"; };
+		8E369C6F2940636700C5F9E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E369C732940644200C5F9E8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8E369C772940722600C5F9E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8E369C782940722A00C5F9E8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		8E4EFE092938BE8700E62A96 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
 		8E4EFE0B2938BF6900E62A96 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
@@ -97,6 +105,7 @@
 		8E8D1701293C75950085F61B /* SignupWebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServiceProtocol.swift; sourceTree = "<group>"; };
 		8E8D1703293C7BB20085F61B /* MockSignupViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSignupViewDelegate.swift; sourceTree = "<group>"; };
 		8E8D1705293C7C320085F61B /* SignupViewDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewDelegateProtocol.swift; sourceTree = "<group>"; };
+		8EB5672729407EE800FB2216 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		8EC4DAFB293AE56E001D5C74 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,6 +235,7 @@
 		8E64462729372FAA00479C43 /* PhotoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8EB5672629407EC000FB2216 /* Extensions */,
 				8E5FA9D12939D31B00A11F2C /* Signup */,
 				8E64462829372FAA00479C43 /* AppDelegate.swift */,
 				8E64462A29372FAA00479C43 /* SceneDelegate.swift */,
@@ -236,6 +246,7 @@
 				8E105C2D293DC7F800A9B4E2 /* LoginViewController.xib */,
 				8E105C2E293DC7F800A9B4E2 /* LoginViewController.swift */,
 				8E3DCB86293ED52900C81D7C /* HomePageViewController.swift */,
+				8E369C702940636700C5F9E8 /* Localizable.strings */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -296,6 +307,14 @@
 				8E105C29293D931000A9B4E2 /* MockSignupPressenter.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8EB5672629407EC000FB2216 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EB5672729407EE800FB2216 /* String+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +404,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 8E64461C29372FAA00479C43;
 			productRefGroup = 8E64462629372FAA00479C43 /* Products */;
@@ -403,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E369C6E2940636700C5F9E8 /* Localizable.strings in Resources */,
 				8E105C2F293DC7F800A9B4E2 /* LoginViewController.xib in Resources */,
 				8E64463529372FB400479C43 /* LaunchScreen.storyboard in Resources */,
 				8E64463229372FB400479C43 /* Assets.xcassets in Resources */,
@@ -414,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB5672529407D1900FB2216 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB5672429407D1400FB2216 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +464,7 @@
 				8E8D1706293C7C320085F61B /* SignupViewDelegateProtocol.swift in Sources */,
 				8E8D16F4293C3CD00085F61B /* SignupFormModel.swift in Sources */,
 				8E4EFE0E2938C50200E62A96 /* SignupConstants.swift in Sources */,
+				8EB5672829407EE800FB2216 /* String+Extension.swift in Sources */,
 				8E105C28293D88A500A9B4E2 /* SignupViewController.swift in Sources */,
 				8E8D16FA293C3EF60085F61B /* SignupModelValidatorProtocol.swift in Sources */,
 				8E5FA9CC2939D0CA00A11F2C /* SignupFormRequestModel.swift in Sources */,
@@ -492,10 +516,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8E369C702940636700C5F9E8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E369C6F2940636700C5F9E8 /* en */,
+				8E369C732940644200C5F9E8 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8E64462E29372FAA00479C43 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8E64462F29372FAA00479C43 /* Base */,
+				8E369C772940722600C5F9E8 /* en */,
+				8E369C782940722A00C5F9E8 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -515,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -576,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

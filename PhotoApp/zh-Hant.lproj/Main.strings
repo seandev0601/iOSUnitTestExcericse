@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "7OX-Lr-kZs"; */
+"7OX-Lr-kZs.normalTitle" = "註冊";
+
+/* Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "AH6-wY-0vn"; */
+"AH6-wY-0vn.placeholder" = "重複密碼";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ONm-h5-Umc"; */
+"ONm-h5-Umc.placeholder" = "電子郵件";
+
+/* Class = "UITextField"; placeholder = "First name"; ObjectID = "VOi-YH-lY9"; */
+"VOi-YH-lY9.placeholder" = "姓氏";
+
+/* Class = "UITextField"; placeholder = "Last name"; ObjectID = "W2K-L3-OfX"; */
+"W2K-L3-OfX.placeholder" = "名稱";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "WlH-4W-fGy"; */
+"WlH-4W-fGy.placeholder" = "密碼";

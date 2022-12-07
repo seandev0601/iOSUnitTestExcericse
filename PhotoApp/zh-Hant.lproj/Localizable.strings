@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  PhotoApp
+
+  Created by ChaoBo-Shang on 2022/12/7.
+  
+*/
+
+// Signup Form Strings
+firstNameTextFieldPlaceholder = "姓氏";
+lastNameTextFieldPlaceholder = "名稱";
+emailTextFieldPlaceholder = "電子郵件";
+passwordSecureTextFieldPlaceholder = "密碼";
+repeatPasswordSecureTextFieldPlaceholder = "重複密碼";
+signupForm_SignupAction_ButtonTitle = "註冊";
+
+// Signup form Error Alert Strings
+signupFormErrorAlertTitle = "錯誤";
+signupFormErrorAlertBodyMessage = "無法創建帳號";
+signupFormErrorAlertOkButtonTitle = "確定";

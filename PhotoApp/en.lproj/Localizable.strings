@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  PhotoApp
+
+  Created by ChaoBo-Shang on 2022/12/7.
+  
+*/
+
+// Signup Form Strings
+firstNameTextFieldPlaceholder = "First name";
+lastNameTextFieldPlaceholder = "Last name";
+emailTextFieldPlaceholder = "email";
+passwordSecureTextFieldPlaceholder = "Password";
+repeatPasswordSecureTextFieldPlaceholder = "Repeat password";
+signupForm_SignupAction_ButtonTitle = "Signup";
+
+// Signup form Error Alert Strings
+signupFormErrorAlertTitle = "Error";
+signupFormErrorAlertBodyMessage = "An account with the provided details could not be created.";
+signupFormErrorAlertOkButtonTitle = "Ok";

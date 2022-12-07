@@ -78,9 +78,9 @@ extension SignupViewController: SignupViewDelegateProtocol {
     }
     
     func errorHandler(error: SignupError) {
-        let alert = UIAlertController(title: "Error", message: "Your request could not be processed at this time", preferredStyle: .alert)
+        let alert = UIAlertController(title: "signupFormErrorAlertTitle".localized, message: "signupFormErrorAlertBodyMessage".localized, preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "signupFormErrorAlertOkButtonTitle".localized, style: .default, handler: nil))
         
 //        DispatchQueue.main.sync {
             alert.view.accessibilityIdentifier = "errorAlertDialog"

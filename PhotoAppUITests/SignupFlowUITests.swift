@@ -159,4 +159,51 @@ class SignupFlowUITests: XCTestCase {
             XCTAssertTrue(self.app.otherElements["HomePageViewController"].waitForExistence(timeout: 1), "The SignupViewController was not presented when the success alert was tapped")
         }
     }
+    
+    func testSignupViewController_WhenInvalidFormInformationSubmitted_DisplaysLocalizedErrorAlertMessage() {
+        // Arrange
+        firstName.tap()
+        firstName.typeText("S")
+        
+        lastName.tap()
+        lastName.typeText("K")
+        
+        email.tap()
+        email.typeText("@")
+        
+        password.tap()
+        password.typeText("123456")
+        
+        repeatPassword.tap()
+        repeatPassword.typeText("123")
+        
+        // Act
+        signupButton.tap()
+        
+        // Assert
+        let alert = app.alerts["errorAlertDialog"]
+        let alertTitle = alert.staticTexts.firstMatch.label
+        let alertBody = alert.staticTexts.element(boundBy: 1).label
+        let alertOkButton = alert.buttons.firstMatch.label
+        
+        XCTAssertTrue(alert.waitForExistence(timeout: 3))
+        
+        let currentAppWindow = XCUIScreen.main.screenshot()
+        let currentAppAttachment = XCTAttachment(screenshot: currentAppWindow)
+        currentAppAttachment.name = "Signup page Screenshot"
+        currentAppAttachment.lifetime = .keepAlways
+        add(currentAppAttachment)
+        
+        XCTAssertEqual(alertTitle, localizedString("signupFormErrorAlertTitle"))
+        XCTAssertEqual(alertBody, localizedString("signupFormErrorAlertBodyMessage"))
+        XCTAssertEqual(alertOkButton, localizedString("signupFormErrorAlertOkButtonTitle"))
+    }
+}
+
+extension SignupFlowUITests {
+    private func localizedString(_ key: String) -> String {
+        let uiTestBundle = Bundle(for: SignupFlowUITests.self)
+        let value = NSLocalizedString(key, bundle: uiTestBundle, comment: "")
+        return value
+    }
 }
